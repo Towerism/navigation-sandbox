@@ -1,3 +1,3 @@
-* Navmesh Playground
+* Navigation Sandbox
 Demonstrates a navmesh agent able to navigate a simple navmesh consisting of
 several navmesh obstacles.
