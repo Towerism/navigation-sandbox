@@ -1,3 +1,14 @@
 * Navigation Sandbox
 Demonstrates a navmesh agent able to navigate a simple navmesh consisting of
 several navmesh obstacles.
+** Scripts
+There are two scripts included: =MoveDestination.cs= and
+=MoveToClickPoint.cs=. Both allow you to tell the navmesh agent where it should
+go.
+*** Move Destination
+This script allows you to use another game object to determine the destination
+of the navmesh. At the start of the scene, the agent will simply navigate to the
+location of the specified game object.
+*** Move To Click Point
+This script is like Move Destination in that you can specify a destination for
+the agent, except that you do so by clicking on a point on the floor at runtime.
